@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carniceria El Novillo de Bortti</title>
+    <meta name="description" content="Carniceria familiar de la cuidad de Rafaela, con productos frescos y de la mejor calidad">
+    <meta name="keywords" content="Carne, ternera, cerdo, pollo, tierno, fresco">
+    <meta name="author" content="Rossanigo Carina">
+    <link rel="shortcut icon" href="img/logo2.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- inicia nav -->
+    <nav class="navbar navbar-expand-md  navbar-light" id="botonera">
+        <div class="container-fluid">
+            <a href="./index.html">
+            <img src="./img/logo2.png" alt="logo del Novillo de Bortti">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg viewBox="0 0 100 80" width="40" height="40">
+                    <rect width="100" height="10"></rect>
+                    <rect y="30" width="100" height="10"></rect>
+                    <rect y="60" width="100" height="10"></rect>
+                </svg>
+            </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a href="/paginas/contacto.html">Contacto</a>
+              </li>            
+          </div>
+        </div>
+    </nav>
+    <!-- termina nav -->
+
+    <div id="saludo">Hola a Todos</div>
+
+ <!--productos disponibles-->
+    <div id="prod"> </div>
+
+    <section>
+        <h3>Tu Carrito:</h3>
+        <table class="table table-striped ">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                </tr>
+            </thead>
+            <tbody id="tablabody">
+                <!-- Aqui van los productos del carrito-->
+            </tbody>
+        </table>
+        <h3 id="total">Total a pagar:</h3>
+    </section>
+     
+<!--cerrar sesion-->
+    <button id="button">Cerrar Sesión</button>
+    
+    <!-- Inicia footer -->
+    <footer>
+        <a href="https://www.instagram.com/elnovillodebortti/" target="_blank" >
+            <img src="./img/instagram logo2.png" alt="instagram">
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100070916876077" target="_blank">
+            <img src="./img/facebook logo.jpg" alt="facebook">
+        </a>
+       <a href="./img/ERROR 404.png">
+            <img src="./img/whatsapp logo.jpg" alt="whatsapp">
+       </a>
+    </footer>
+    <script src="./js/productos.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

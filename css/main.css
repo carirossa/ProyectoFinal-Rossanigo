@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url(../img/fondos.png);
+  background-attachment: fixed;
+}
+
+h1 {
+  color: rgb(124, 10, 10);
+  font-family: "Roboto", sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+h2 {
+  color: rgb(95, 4, 4);
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 1.8rem;
+  }
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer img {
+  width: 60px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#botonera {
+  background-color: rgba(192, 122, 122, 0.2);
+}
+#botonera ul {
+  list-style: none;
+}
+#botonera ul li a {
+  color: rgb(31, 1, 1);
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  margin: 0 1rem;
+}
+#botonera svg {
+  fill: rgb(95, 4, 4);
+}
+
+main p {
+  color: rgb(31, 1, 1);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+main form {
+  color: rgb(31, 1, 1);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  width: 95%;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  border: 10px;
+}
+main iframe {
+  width: 95%;
+  height: auto;
+}/*# sourceMappingURL=main.css.map */
