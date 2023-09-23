@@ -1,0 +1,140 @@
+[ 
+    {  
+        "id": 1, 
+        "nombre": "Costilla", 
+        "precio": 4000, 
+        "foto": "../img/Costilla.webp" 
+    },
+    { 
+        "id": 2, 
+        "nombre": "Pechito de Cerdo", 
+        "precio": 2900, 
+        "foto": "../img/pechito-de-cerdo.webp" 
+    },
+    {
+        "id": 3,
+        "nombre": "Vacio", 
+        "precio": 3800, 
+        "foto": "../img/vacio.webp" 
+    },
+    { 
+        "id": 4, 
+        "nombre": "Milanesa", 
+        "precio": 2500, 
+        "foto": "../img/milanesa.webp" 
+    },
+    {
+        "id": 5,
+        "nombre": "Bife Chino", 
+        "precio": 3700, 
+        "foto": "../img/bife-chino.webp" 
+    },
+    {
+        "id": 6,
+        "nombre": "Bondiola", 
+        "precio": 2800, 
+        "foto": "../img/bondiola.webp" 
+    },
+    {
+        "id": 7,
+        "nombre": "Carne Picada", 
+        "precio": 2900, 
+        "foto": "../img/carne-picada.webp" 
+    },
+    {
+        "id": 8,
+        "nombre": "Chorizo", 
+        "precio": 2350, 
+        "foto": "../img/chorizo.webp" 
+    },
+    {
+        "id": 9,
+        "nombre": "Churrasco de Cerdo", 
+        "precio": 1800, 
+        "foto": "../img/churrasco-cerdo.webp" 
+    },
+    {
+        "id": 10,
+        "nombre": "Costeleta de Cerdo", 
+        "precio": 1950, 
+        "foto": "../img/costeleta-cerdo.webp" 
+    },
+    {
+        "id": 11,
+        "nombre": "Costeleta de Aguja", 
+        "precio": 2000, 
+        "foto": "../img/costeleta-de-aguja.webp" 
+    },
+    {
+        "id": 12,
+        "nombre": "Hamburguesa", 
+        "precio": 1500, 
+        "foto": "../img/hamburguesa.webp" 
+    },
+    {
+        "id": 13,
+        "nombre": "Leber Casero", 
+        "precio": 2400, 
+        "foto": "../img/leber-casero.webp" 
+    },
+    {
+        "id": 14,
+        "nombre": "Marucha", 
+        "precio": 2600, 
+        "foto": "../img/marucha.webp" 
+    },
+    {
+        "id": 15,
+        "nombre": "Matambre de Cerdo", 
+        "precio": 2600, 
+        "foto": "../img/matambre-cerdo.webp" 
+    },
+    {
+        "id": 16,
+        "nombre": "Morcilla Piccioni", 
+        "precio": 1100, 
+        "foto": "../img/morcilla-piccioni.webp" 
+    },
+    {
+        "id": 17,
+        "nombre": "Osobuco", 
+        "precio": 1400, 
+        "foto": "../img/osobuco.webp" 
+    },
+    {
+        "id": 18,
+        "nombre": "Peceto", 
+        "precio": 2300, 
+        "foto": "../img/peceto.webp" 
+    },
+    {
+        "id": 19,
+        "nombre": "Pechito de Cerdo", 
+        "precio": 2200, 
+        "foto": "../img/pechito-de-cerdo.webp" 
+    },
+    {
+        "id": 20,
+        "nombre": "Queso de Cerdo", 
+        "precio": 1600, 
+        "foto": "../img/queso-de-cerdo.webp" 
+    },
+    {
+        "id": 21,
+        "nombre": "Salame Casero", 
+        "precio": 3500, 
+        "foto": "../img/salame-casero.webp" 
+    },
+    {
+        "id": 22,
+        "nombre": "Salchicha", 
+        "precio": 700, 
+        "foto": "../img/salchicha.webp" 
+    },
+    {
+        "id": 23,
+        "nombre": "Vacio de Cerdo", 
+        "precio": 2700, 
+        "foto": "../img/vacio-de-cerdo.webp" 
+    }]
+  

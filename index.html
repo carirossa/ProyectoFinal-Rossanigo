@@ -10,6 +10,7 @@
     <meta name="author" content="Rossanigo Carina">
     <link rel="shortcut icon" href="img/logo2.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -35,18 +36,20 @@
         </div>
     </nav>
     <!-- termina nav -->
-
-    <div id="saludo">Hola a Todos</div>
-
+   
  <!--productos disponibles-->
-    <div id="prod"> </div>
-
+    <!-- <div id="prod"> </div> -->
+    <div class="container">
+        <div class="row" id="prod">
+    
+        </div>
+      </div>
+<div>
     <section>
         <h3>Tu Carrito:</h3>
-        <table class="table table-striped ">
+        <table class="table table-striped">
             <thead>
                 <tr>
-                    <th>ID</th>
                     <th>Nombre</th>
                     <th>Precio</th>
                 </tr>
@@ -57,10 +60,10 @@
         </table>
         <h3 id="total">Total a pagar:</h3>
     </section>
-     
-<!--cerrar sesion-->
-    <button id="button">Cerrar Sesión</button>
-    
+    <button id="finalizar" class="btn btn-danger">Finalizar Compra</button>
+    <button id="vaciar" class="btn btn-danger">Vaciar Carrito</button>
+</div>  
+
     <!-- Inicia footer -->
     <footer>
         <a href="https://www.instagram.com/elnovillodebortti/" target="_blank" >
@@ -73,8 +76,11 @@
             <img src="./img/whatsapp logo.jpg" alt="whatsapp">
        </a>
     </footer>
-    <script src="./js/productos.js"></script>
-    <script src="./js/main.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!-- <script src="./js/productos.js"></script> -->
+    <script src="./js/main.js"></script>
 </body>
 </html>
